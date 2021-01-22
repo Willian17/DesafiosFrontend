@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color-primary: #D2872C;
+    --color-secundary: #766F68;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.landing{
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.landing .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.landing .header .logo{
+    color: var(--color-primary);
+    margin: 30px;
+}
+
+.landing .header .menu{
+    margin: 30px;
+}
+
+.landing .header a {
+    text-decoration: none;
+    color: #5f5f5f;
+    font-size: 1.5em;
+    margin: 0 10px;
+}
+
+.landing .content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: calc(100% - 200px);
+}
+
+.landing .content .info{
+    padding: 10px 45px;
+    max-width: 47%;
+}
+
+
+.landing .content .info h1{
+    font-size: 4.7em;
+    color: var(--color-secundary);
+}
+.landing .content .info p{
+    margin-top: 20px;
+    margin-bottom: 35px;
+    font-size: 2em;
+    color: var(--color-secundary);
+}
+.landing .content .info button{
+    margin-top: 35px;
+    width: 40%;
+    padding: 15px;
+    border: none;
+    background-color: var(--color-primary);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 15px;
+    outline: none;
+    cursor: pointer;
+}
+
+.landing .content .info button:active{
+    box-shadow: none;
+}
+
+
+.landing .content .team-image{
+    width: 50%;
+}
+.landing .content .team-image img{
+    width: 100%;
+}
+
