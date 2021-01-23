@@ -30,7 +30,7 @@
 
 ## :pushpin: Sobre o Projeto <a name="sobre"></a>
 <div>
-<img src="" width="400px">
+<img src="https://miro.medium.com/max/1098/1*mnEQpPRuTcNSU3fsZQLfug.png" width="400px">
 </div>
 
 
