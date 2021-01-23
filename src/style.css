@@ -35,6 +35,14 @@ body{
     margin: 30px;
 }
 
+.landing .header .icon-menu{
+    display: none;
+    margin-right: 30px;
+    font-size: 2em;
+    color: #000;
+    cursor: pointer;
+}
+
 .landing .header a {
     text-decoration: none;
     color: #5f5f5f;
@@ -91,4 +99,44 @@ body{
 .landing .content .team-image img{
     width: 100%;
 }
+
+
+
+@media (max-width : 767px) {
+    body{
+        font-size: 60%;
+    }
+    .landing .content{
+        margin-top: 25%;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .landing .content .team-image{
+        order: 1;
+        width: 80%;
+    }
+
+    .landing .content .info{
+        order: 2;
+        max-width: 100%;
+        text-align: center;
+    }
+    .landing .content .info button{
+        width: 50%;
+    }
+    .landing .header .icon-menu{
+        display: block;
+    }
+
+    .landing .header .menu{
+        display: none;
+    }
+}
+@media (min-width : 768px) and (max-width : 1024px) {
+    body{
+        font-size: 80%;
+    }
+}
+
 
